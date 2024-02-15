@@ -1,0 +1,50 @@
+
+.p{
+    font-size:40px;
+}
+.picture {
+    /*
+    Lay the picture containers out one after the other. (To see why
+    this line is important, try changing it to 'block' or 'inline'.)
+    */
+    display: inline-block;
+
+    /* add a little space between each picture and the next */
+    margin: 10px;
+}
+
+.gallery img {
+    height: 200px;
+    border-radius: 20%;
+    border:3px white solid;
+
+}
+.gallery img:hover {
+  transform: scale(1.5); 
+}
+.gallery p {
+    text-align: center;
+    margin-top: 0;
+}
+body{
+    text-align:center;
+    background:url('https://wallpapers.com/images/hd/pink-clouds-background-30n9v4m21y7mnare.jpg');
+    color:#51ABF0;
+    font-family: 'Gruno Bubble Trial', sans-serif;
+                                                
+}
+.image-container {
+    display: inline-block;
+    text-align: center; 
+    margin-right: 20px;
+}
+input{
+    border-radius:30px;
+    background-color:#99ddf2;
+    color:black;
+    height:25px;
+}
+button{
+    border-radius:20px;
+    color:#f542b6;
+}
